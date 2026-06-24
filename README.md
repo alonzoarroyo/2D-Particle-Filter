@@ -1,7 +1,7 @@
 # 2D-Particle-Filter
 ## Project Overview
 The purpose of this project was to implement a 2D particle filter in MATLAB based on the 2002 paper "A Tutorial on Particle Filters for Online
-Nonlinear/Non-Gaussian Bayesian Tracking" by Arulampalam et al.  The specific Particle Filter that was ultimately implemented was the Sampling Importance Resampling Filter prevent sample impoverishment and to efficiently evaluate the importance weights. 
+Nonlinear/Non-Gaussian Bayesian Tracking" by Arulampalam et al.  The specific Particle Filter that was chosen to be implemented was the Sampling Importance Resampling Filter in order to prevent sample impoverishment and to efficiently evaluate the importance weights. 
 ## Mathematical Model
 The non-linear discrete-time system is composed of two equations for the x and y coordinates:
 ```math
