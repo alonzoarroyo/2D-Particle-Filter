@@ -1,6 +1,6 @@
 % 2D Particle Filter 
 function [particles, Neff_history, resample_flags,threshold, x_true_history, x_est_history] = particle_filter_2d(T,N, Q, R, threshold_factor)
-% Time steps
+% Time step size
 dt = 0.1;
 
 x_true = [0.1; -0.1]; % initial true states
